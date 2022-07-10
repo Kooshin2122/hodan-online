@@ -1,0 +1,269 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "companyName": "Somali Sudaanese",
+      "email": "somaliSudanese@gmail.com",
+      "phoneNumber": 615277170
+    },
+    {
+      "companyName": "RCH",
+      "email": "maanka@gmail.com",
+      "phoneNumber": "252615094596",
+      "id": 2
+    },
+    {
+      "companyName": "Hormuud",
+      "email": "abdirahmanabdirashid429@gmail.com",
+      "phoneNumber": "615789890",
+      "id": 3
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "image": "Micro.jpg",
+      "label": "Radio Marketing",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+      "NumberOfBrands": 8,
+      "details": [
+        {
+          "id": 1,
+          "image": "Micro.jpg",
+          "label": "Radio Mogadisho",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 100,
+          "isInCart": false
+        },
+        {
+          "id": 2,
+          "image": "Micro.jpg",
+          "label": "Radio Goal FM",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 250,
+          "isInCart": false
+        },
+        {
+          "id": 3,
+          "image": "Micro.jpg",
+          "label": "Radio Dalsan",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 230,
+          "isInCart": false
+        },
+        {
+          "id": 4,
+          "image": "Micro.jpg",
+          "label": "Radio Koobjoog",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 5,
+          "image": "Micro.jpg",
+          "label": "Radio AlHuda",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "socialMedia.jpg",
+      "label": "Social Media Marketing",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+      "NumberOfBrands": 14,
+      "details": [
+        {
+          "id": 1,
+          "image": "socialMedia.jpg",
+          "label": "Radio Mogadisho",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 2,
+          "image": "socialMedia.jpg",
+          "label": "Radio Goal FM",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 3,
+          "image": "socialMedia.jpg",
+          "label": "Radio Dalsan",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 4,
+          "image": "socialMedia.jpg",
+          "label": "Radio Koobjoog",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 5,
+          "image": "socialMedia.jpg",
+          "label": "Radio AlHuda",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "Tv.jpg",
+      "label": "Tv Marketing",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+      "NumberOfBrands": 14,
+      "details": [
+        {
+          "id": 1,
+          "image": "Tv.jpg",
+          "label": "Radio Mogadisho",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 2,
+          "image": "Tv.jpg",
+          "label": "Radio Goal FM",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 3,
+          "image": "Tv.jpg",
+          "label": "Radio Dalsan",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 4,
+          "image": "Tv.jpg",
+          "label": "Radio Koobjoog",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 5,
+          "image": "Tv.jpg",
+          "label": "Radio AlHuda",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "News.jpg",
+      "label": "News Marketing",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+      "NumberOfBrands": 14,
+      "details": [
+        {
+          "id": 1,
+          "image": "News.jpg",
+          "label": "Radio Mogadisho",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 2,
+          "image": "News.jpg",
+          "label": "Radio Goal FM",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 3,
+          "image": "News.jpg",
+          "label": "Radio Dalsan",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 4,
+          "image": "News.jpg",
+          "label": "Radio Koobjoog",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 5,
+          "image": "News.jpg",
+          "label": "Radio AlHuda",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "email.jpg",
+      "label": "Email Marketing",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+      "NumberOfBrands": 14,
+      "details": [
+        {
+          "id": 1,
+          "image": "email.jpg",
+          "label": "Radio Mogadisho",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 2,
+          "image": "email.jpg",
+          "label": "Radio Goal FM",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 3,
+          "image": "email.jpg",
+          "label": "Radio Dalsan",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 4,
+          "image": "email.jpg",
+          "label": "Radio Koobjoog",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        },
+        {
+          "id": 5,
+          "image": "email.jpg",
+          "label": "Radio AlHuda",
+          "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellendus quia quod facilis iusto omnis atque? Eligendi aliquid, praesentium quisquam maxime, temporibus earum repellat, sint a ducimus sapiente accusantium necessitatibus.",
+          "price": 200,
+          "isInCart": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -6,11 +10,15 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.mainBgColor{
+  background-color: 
+  #0a1131;
 }
+.nav{
+  @apply 
+  flex flex-col items-center cursor-pointer text-white/60
+}  
 
-* {
-  box-sizing: border-box;
+.active{
+  @apply text-white font-medium
 }
