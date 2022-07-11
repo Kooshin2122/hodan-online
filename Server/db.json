@@ -4,19 +4,45 @@
       "id": 1,
       "companyName": "Somali Sudaanese",
       "email": "somaliSudanese@gmail.com",
-      "phoneNumber": 615277170
+      "phoneNumber": 615277170,
+      "password": 12
     },
     {
       "companyName": "RCH",
       "email": "maanka@gmail.com",
       "phoneNumber": "252615094596",
-      "id": 2
+      "id": 2,
+      "password": 123
     },
     {
       "companyName": "Hormuud",
       "email": "abdirahmanabdirashid429@gmail.com",
       "phoneNumber": "615789890",
-      "id": 3
+      "id": 3,
+      "password": 1234
+    }
+  ],
+  "parternship": [
+    {
+      "id": 1,
+      "companyName": "Astaan Tv",
+      "email": "astaan@gmail.com",
+      "phoneNumber": 618900987,
+      "price": 230
+    },
+    {
+      "id": 2,
+      "companyName": "Asal Tv",
+      "email": "asal@gmail.com",
+      "phoneNumber": 617654321,
+      "price": 130
+    },
+    {
+      "id": 3,
+      "companyName": "Radio Goal",
+      "email": "astaan@gmail.com",
+      "phoneNumber": 618900987,
+      "price": 30
     }
   ],
   "services": [
