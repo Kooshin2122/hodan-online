@@ -43,7 +43,7 @@ function PaymentPage() {
                     </div>
                 </div>
                 <div className='w-[60%] h-full bg-white flex justify-center items-center'>
-                    <div className='w-[45%] h-[55vh] mainBgColor text-white p-10 text-center rounded-md'>
+                    <div className='w-[45%] min-h-[55vh] mainBgColor text-white p-10 text-center rounded-md'>
                         <h1 className='text-3xl'>REGISTER ORDERS</h1>
                         <p className='mt-14'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.

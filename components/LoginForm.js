@@ -22,12 +22,12 @@ function LoginForm() {
         const credintials = new FormData(e.target)
         const loginInfo = {
             companyName: credintials.get('Company Name'),
-            phoneNumber: credintials.get('PhoneNumber')
+            password: credintials.get('password')
         }
         let users = await getAllUsers('/users')
 
         users.map((data) => {
-            if (data.phoneNumber == loginInfo.phoneNumber) {
+            if (data.password == loginInfo.password && data.companyName == loginInfo.companyName) {
                 setUser(data)
                 setLoginResponse(false)
                 showOrHideLoginForm()
@@ -74,9 +74,9 @@ function LoginForm() {
                         width='w-[100%]'
                     />
                     <RegularField
-                        name='PhoneNumber'
-                        label='PhoneNumber'
-                        type='number'
+                        name='password'
+                        label='Password'
+                        type='password'
                         width='w-[100%]'
                     />
                     <div className='w-[100%] px-3 flex justify-between '>

@@ -3,13 +3,14 @@ import Image from 'next/image'
 import Cart from '../components/Cart'
 import Header from '../components/Header'
 import Panel from '../components/HomeCom/Panel'
-import ServicesCards from '../components/HomeCom/ServicesCards'
+import profile from '../public/profile.jpeg'
 import SmallCards from '../components/HomeCom/SmallCards'
 import LoginForm from '../components/LoginForm'
 import SingUpForm from '../components/SignUpForm'
 import apiRequest from '../Server/ApiRequest'
 import { useCustomHook } from '../service/Context'
-
+import TestimonialCard from 'material-testimonial-card';
+import Footer from '../components/Footer'
 
 export default function Home({ services }) {
   const { cartToggle, loginToggle, signUpToggle } = useCustomHook();
@@ -25,24 +26,46 @@ export default function Home({ services }) {
       <Header />
       <Panel />
       <section>
-        {
-          cartToggle && <Cart />
-        }
+        {cartToggle && <Cart />}
         {signUpToggle && <SingUpForm />}
         {loginToggle && <LoginForm />}
       </section>
       <section className='w-[80%] overflow-auto m-auto py-10'>
         <h1 className='text-3xl font-normal text-center mb-10'>Services</h1>
-        <div className='overflow-auto grid grid-cols-1 sm:grid-cols-3 gap-10'>
-          {
-            services?.map((value, index) => {
-              return (
-                <SmallCards {...value} key={index} />
-              )
-            })
-          }
+
+      </section>
+
+      <section className='w-[90%] m-auto mb-5 h-fit flex flex-col items-center'>
+        <h1 className='text-3xl font-normal text-center mb-5'>Testmonial</h1>
+        <div className='flex gap-x-5 items-center w-[100%]'>
+          <TestimonialCard
+            name={"John Smith"}
+            image={"profile.jpeg"}
+            content={"Wow! This testimonial card is so amazing! I would like to use it in my project! Wow! This testimonial card is so amazing! I would like to use it in my project! Wow! This testimonial card is so amazing! I would like to use it in my project!"}
+            project={"Testimonial card"}
+          />
+          <TestimonialCard
+            name={"John Smith"}
+            image={"profile.jpeg"}
+            content={"Wow! This testimonial card is so amazing! I would like to use it in my project! Wow! This testimonial card is so amazing! I would like to use it in my project! Wow! This testimonial card is so amazing! I would like to use it in my project!"}
+            project={"Testimonial card"}
+          />
+          <TestimonialCard
+            name={"John Smith"}
+            image={"profile.jpeg"}
+            content={"Wow! This testimonial card is so amazing! I would like to use it in my project! Wow! This testimonial card is so amazing! I would like to use it in my project! Wow! This testimonial card is so amazing! I would like to use it in my project!"}
+            project={"Testimonial card"}
+          />
+          <TestimonialCard
+            name={"John Smith"}
+            image={"profile.jpeg"}
+            content={"Wow! This testimonial card is so amazing! I would like to use it in my project! Wow! This testimonial card is so amazing! I would like to use it in my project! Wow! This testimonial card is so amazing! I would like to use it in my project!"}
+            project={"Testimonial card"}
+          />
         </div>
       </section>
+
+      <Footer />
     </div>
   )
 }

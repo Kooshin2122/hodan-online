@@ -7,7 +7,7 @@ import DetailsCard from './DetailsPage/DetailsCard'
 import RegularBtn from './RegularBtn'
 import { useRouter } from 'next/router'
 
-function Cart({ image = 'Micro.jpg', label = 'Label', description, Customer }) {
+function Cart({ image = 'Micro.jpg', label = 'Label', description, price }) {
     const router = useRouter()
     const { showOrHideCart, cartData, cartTotal, setCartTotal, user, setUser, showOrHideLoginForm, setOrder } = useCustomHook()
 

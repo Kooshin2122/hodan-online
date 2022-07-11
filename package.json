@@ -15,6 +15,7 @@
     "@material-ui/core": "^4.12.4",
     "@mui/material": "^5.8.7",
     "axios": "^0.27.2",
+    "material-testimonial-card": "0.0.3",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
